@@ -1,0 +1,516 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    display: block;
+}
+.banner1>header>nav>img{
+    width: 180px;
+    margin-top: 20px;
+    position: absolute;
+    left: 5%;
+}
+.banner1>header>nav>ul{
+   list-style-type: none;
+   float: right;
+}
+.banner1>header>nav>ul>li{
+display: inline-block;
+padding: 18px;
+}
+.banner1>header>nav>ul>li>a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    align-items: flex-end;
+}
+.banner1>header>nav>ul>li:hover a{
+    color: rgb(3, 3, 69);
+}
+.back{
+    background-color: rgb(246,246,246);
+}
+.banner2{
+    background-image: url(assets/emp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    padding: 1.5rem;
+    padding-right: 1.5rem;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #DCDBD9;
+    box-sizing:border-box;
+}
+.banner2>h1{
+    font-size: 64px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    margin-top: 0;
+    padding-left: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 0.5em;
+    display: block;
+    position:relative;
+    left: 30%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+.banner2>p{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    top: 90px;
+    line-height: 1.57;
+    box-sizing: border-box;
+   font-family: Roboto;
+   font-style: italic;
+   display: block;
+   margin-bottom: 1rem;
+   margin-top: 5;
+}
+.banner2>button{
+    background-color: #25078A;
+    color: white;
+    border-color: #DCDBD9;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    line-height: 1.57;
+    position: relative;
+    margin-top: 25%;
+    right: 12%;
+    cursor: pointer;
+}
+.banner3{
+    margin-top: 100px;
+    position: relative;
+    left: 20%;
+    line-height: 1.57;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+
+.banner3>.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    width: 320px;
+    height: 340px;
+    font-size: 14px;
+    position: relative;
+    left: -20%;
+    margin: 10px;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    flex: 11 auto;
+    padding: 1.25rem;
+    line-height: 1.57;
+    justify-content: space-around;
+    display: block;
+    background-color: white;
+}
+.banner3>.container>h4{
+    font-size: 24px;
+}
+.banner3>.container>h5{
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 18px;
+    border-bottom: 3px solid gray;
+    width: fit-content;
+}
+.banner3>.container:hover{
+    background-color: #25078A;
+}
+.banner3>.container:hover h5{
+    color: orangered;
+    border-color: orangered;
+}
+.banner3>.container:hover h4{
+    color: white;
+}
+.banner3>.container:hover p{
+    color: white;
+}
+.about1{
+   background-image: url(assets/r.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 600px;
+   position: relative;
+   left: 10%;
+}
+.about1>h1{
+    position: relative;
+    left: 36%;
+    top: 22%;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.about1>p{
+    position: relative;
+    left: 36%;
+    top: 20%;
+    font-size: 19px;
+    color: #757575;
+    line-height: 1.5;
+    display: block;
+    font-weight: lighter;
+}
+.moto{
+  background:rgba(120,95,95,0.78) url(assets/rr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-attachment: fixed;
+}
+.moto>h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 15%;
+}
+.moto1{
+    position: relative;
+    left: 55%;
+    top: 3%;
+}
+.moto1>select{
+    width: 190px;
+    height: 40px;
+    background-color: #25078A;
+    border:2px solid blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.1px;
+}
+.moto1>p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Robot;
+    color: white;
+    
+}
+.brands>.image1{
+    width: 240px;
+    height: 100px;
+    border: 2px solid grey;
+    border-radius: 50% 50%;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    position: relative;
+    left: 10%;
+}
+.brands>.image2{
+    width: 240px;
+    height: 100px;
+    border: 2px solid grey;
+    border-radius: 50% 50%;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    position: relative;
+    left: 47%;
+    float: left;
+    padding: 5px;
+    margin-top: -6%;
+}
+.brands>.image3{
+    width: 240px;
+    height: 100px;
+    border: 2px solid grey;
+    border-radius: 50% 50%;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    position: relative;
+    left: 12%;
+    margin-top: -6%;
+}
+
+.brands>.image4{
+    width: 240px;
+    height: 100px;
+    border: 2px solid grey;
+    border-radius: 50% 50%;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    float: left;
+    padding: 5px;
+    position: relative;
+    left: 65%;
+    margin-top: -7%;
+}
+.brands>.image4 img{
+    width: 150px;
+}
+.brands>.image3 img{
+    width: 100px;
+}
+.brands>.image2 img{
+    width: 180px;
+}
+.aim>p{
+text-align: center;
+font-size: 53px;
+font-weight:bold
+}
+.aim>.first{
+    position: relative;
+    left: 10%;
+}
+.aim>.Second{
+    position: relative;
+    left: 35%;
+    margin-top: -25.6%;
+}
+.aim>.Third{
+    position: relative;
+    left: 63%;
+    margin-top: -26.8%;
+}
+.aim>.first>h4{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aim>.Second>h4{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aim>.Third>h4{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer{
+    background-image: url(assets/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:550px;
+    width: 100%;
+    background-color: black;
+}
+.footer>.title{
+    position: relative;
+    top: 8%;
+    left: 6%;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.footer>.line{
+    border-bottom: 3px solid white;
+    height: 17px;
+    width: 25px;
+    position: relative;
+    left: 6%;
+    top: 8%;
+}
+.footer>.number,.ed,.add{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    position: relative;
+    top: 8%;
+    left: 6%;
+}
+.footer>.title1{
+    position: relative;
+    bottom: 67%;
+    left: 40%;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.footer>.line1{
+    border-bottom: 3px solid white;
+    height: 17px;
+    width: 25px;
+    position: relative;
+    left: 40%;
+    bottom: 67%;
+}
+.footer>.foot1{
+    position: relative;
+    bottom: 47%;
+    left: 6%;
+    color: grey;
+}
+.footer>.icons{
+color: gray;
+position: relative;
+bottom: 55%;
+left: 88%;
+display: inline-block;
+justify-content: space-between;
+margin: 10px;
+}
+
+@media(max-width:768px){
+    .banner1>header>nav>img{
+        width: 50px;
+        margin-top: 20px;
+        position: absolute;
+        left: 5%;
+    }
+    .banner1>header>nav>ul{
+       list-style-type: none;
+       float: right;
+    }
+    .banner1>header>nav>ul>li{
+    display: inline-block;
+    padding: 14px;
+    }
+    .banner1>header>nav>ul>li>a{
+        color: black;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 15px;
+        align-items: flex-end;
+    }
+    .banner1>header>nav>ul>li:hover a{
+        color: rgb(3, 3, 69);
+    }
+    .banner2{
+        background-image: url(assets/emp.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:750px;
+        display: flex;
+        width: 100%;
+        height: 600px;
+        padding: 1.5rem;
+        padding-right: 1.5rem;
+        justify-content: flex-end;
+        align-items: center;
+        /* background-color: #DCDBD9; */
+        box-sizing:border-box;
+    }
+    .banner2>h1{
+        font-size: 24px;
+        font-weight: 500;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
+        margin-top: 0;
+        padding-left: 3rem;
+        margin-left: 3rem;
+        margin-bottom: 0.5em;
+        display: block;
+        position:relative;
+        left: 50%;
+        margin-top: 1%;
+        margin-bottom: 10%;
+    }
+    .banner2>p{
+        font-size: 17px;
+        font-weight: 400;
+        color: white;
+        position: relative;
+        top: 130px;
+        line-height: 1.57;
+        box-sizing: border-box;
+       font-family: Roboto;
+       font-style: italic;
+       display: block;
+       margin-bottom: 1rem;
+       margin-top: 9;
+       margin-right: -9rem;
+    }
+    .banner2>button{
+        background-color: #25078A;
+        color: white;
+        border-color: #DCDBD9;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 7px;
+        padding: 5px;
+        border-radius: 4px;
+        line-height: 1.57;
+        position: relative;
+        margin-top: 70%;
+        right: 12%;
+        cursor: pointer;
+    }
+    .banner3{
+        margin-top: 100px;
+        position: relative;
+        left: 20%;
+        line-height: 1.57;
+        display: flex;
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    .banner3>.container{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+        width: 360px;
+        height: 300px;
+        font-size: 13px;
+        position: relative;
+        left: -20%;
+        margin: 10px;
+        box-sizing: border-box;
+        margin-top: 2rem;
+        flex: 12 auto;
+        padding: 1.25rem;
+        line-height: 1.57;
+        justify-content: space-around;
+        display: block;
+        background-color: white;
+    }
+    .banner3>.container>h4{
+        font-size: 24px;
+    }
+    .banner3>.container>h5{
+        font-size: 15px;
+        color: gray;
+        cursor: pointer;
+        font-weight: 700;
+        margin-top: 18px;
+        border-bottom: 3px solid gray;
+        width: fit-content;
+    }
+    .banner3>.container:hover{
+        background-color: #25078A;
+    }
+    .banner3>.container:hover h5{
+        color: orangered;
+        border-color: orangered;
+    }
+    .banner3>.container:hover h4{
+        color: white;
+    }
+    .banner3>.container:hover p{
+        color: white;
+    }
+}
